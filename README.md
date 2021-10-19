@@ -10,3 +10,6 @@ It was trained on the [Div2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 - cv2
 
 ## SRDenseNet
+
+
+![Alt text](images/SRDenseNet.png?raw=true "SRDenseNet architecture")
