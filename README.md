@@ -10,6 +10,8 @@ It was trained on the [Div2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 - cv2
 
 ## SRDenseNet
-
+(a) SRDenseNet_H : only the hihg-level feature maps are used as input for reconstructing the HR images.
+(b) SRDenseNet_HL : the low-level and the high-level features are combined as input for reconstucting the HR images.
+(c) SRDenseNet_All : all levls of features are combined via skip connections as input for reconstructing the HR images.
 
 ![Alt text](images/SRDenseNet.png?raw=true "SRDenseNet architecture")
