@@ -52,12 +52,6 @@ def SRDenseNet(nblocks=8, nlayers=8):
 
 
 
-
-
-
-
-
-##################################################################################################################
 def Concatenation(layers):
     return tf.concat(layers, axis=3)
 
